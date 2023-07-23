@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './interactivity/Button1'
+import Toolbar from './readingprops/Multibar'
+import Smash from './readingprops/Smash'
+import Toolba from './readingprops/PlayButton';
+import Toolbar2 from './readingprops/PlayButton'
 function App() {
   return (
     <div className="App">
-<Button></Button>
+<Toolbar2/>
     </div>
   );
 }
